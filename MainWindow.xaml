@@ -1,0 +1,15 @@
+﻿<Window x:Class="_182685HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_182685HelloWorld"
+        mc:Ignorable="d"
+        Title="My FiRsT Program - Josh Degazio" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="message" Content="Hello World!"/>
+        <TextBlock Text="Please enter your name below." />
+        <TextBox x:Name="input_name"/>
+        <Button Click="Button_Click" Content="Submit" Width="50"/>
+    </StackPanel>
+</Window>
